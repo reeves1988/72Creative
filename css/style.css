@@ -1,5 +1,51 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @reeves1988
+ Sign out
+ Watch 1
+  Star 0
+  Fork 0 moshe444/temp
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki Insights 
+Branch: gh-pages Find file Copy pathtemp/css/style.css
+70d4f59  19 days ago
+@moshe444 moshe444 Update style.css
+1 contributor
+RawBlameHistory     
+107 lines (89 sloc)  1.6 KB
 body{
-	background-color: #ffff00;
+	background: linear-gradient(270deg, #ffff00, #00b9ff, #ff7e00);
+	background-size: 1600% 1600%;
+
+	-webkit-animation: AnimationName 31s ease infinite;
+	-moz-animation: AnimationName 31s ease infinite;
+	-o-animation: AnimationName 31s ease infinite;
+	animation: AnimationName 31s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 img{
@@ -77,3 +123,5 @@ img{
 	  	transform: translate(-50%, -50%);
 	}
 }
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
