@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @reeves1988
- Sign out
- Watch 1
-  Star 0
-  Fork 0 moshe444/temp
- Code  Issues 0  Pull requests 0  Projects 0  Wiki Insights 
-Branch: gh-pages Find file Copy pathtemp/css/style.css
-70d4f59  19 days ago
-@moshe444 moshe444 Update style.css
-1 contributor
-RawBlameHistory     
-107 lines (89 sloc)  1.6 KB
 body{
 	background: linear-gradient(270deg, #ffff00, #00b9ff, #ff7e00);
 	background-size: 1600% 1600%;
@@ -123,5 +104,3 @@ img{
 	  	transform: translate(-50%, -50%);
 	}
 }
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
