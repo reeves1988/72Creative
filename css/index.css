@@ -1,0 +1,74 @@
+@font-face {
+    font-family: cus-english;
+    src: url('fonts/english.otf');
+}
+
+@font-face {
+    font-family: cus-chinese;
+    src: url('fonts/chinese.ttf');
+}
+
+body{
+    font-family: cus-english, cus-chinese, sans-serif, SansSerif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+.section-bg, .slide-bg{
+    background-size: cover;
+}
+
+.s1-1{
+    background: url("../img/b1.jpg") no-repeat center center;
+}
+
+.s1-2{
+    background: url("../img/b2.jpg") no-repeat center center;
+}
+
+.s1-3{
+    background: url("../img/b3.jpg") no-repeat center center;
+}
+
+.section2{
+    background: url("../img/b4.jpg") no-repeat center center;
+}
+
+.menu{
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    color: #ffffff;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.menu ul li:hover{
+    color: #cccccc;
+}
+
+.menu ul li.active{
+    border-bottom: 3px solid yellow;
+}
+
+.logo{
+    position: fixed;
+    width: 200px;
+    top: 30px;
+    left: 20px;
+}
+
+.logo img{
+    width: 100%;
+}
